@@ -1,7 +1,7 @@
-# HireSync — AI Resume Analyzer & Smart Shortlisting Platform
-HireSync is a full-stack AI-powered recruitment platform designed to help recruiters shortlist candidates quickly and help jobseekers improve their resumes with NLP-based insights.
-# Overview
-HireSync provides:
+#HireSync — AI Resume Analyzer & Smart Shortlisting Platform
+
+HireSync is a full-stack AI-powered recruitment platform designed to help recruiters shortlist candidates efficiently and assist jobseekers in improving their resumes using NLP-based insights.
+#Overview
 
 Resume parsing
 
@@ -15,52 +15,28 @@ Recruiter & Jobseeker dashboards
 
 Authentication with JWT
 
-AI-driven suggestions
-🚀 # Features
-👨‍💼 Recruiter Features
+#Features
+##Recruiter Features
 
 Upload multiple resumes
 
-Job description matching
+Match resumes with job description
 
 AI ranking using TF-IDF + cosine similarity
 
 Accept/Reject workflow
 
-CSV candidate storing
-
-👩‍💻 Job Seeker Features
+Automatically store accepted candidates in CSV
+##Job Seeker Features
 
 Upload resume (PDF/DOCX)
 
-Extracted skills
+Extract skills from resume
 
-Score calculation
+Resume scoring
 
-Suggestions & missing skills
+Improvement suggestions
 
-Predicted role
+Predicted job role
 
-Skill improvement videos
-# Architecture
-React Frontend
-     │
-     ├── Node.js Auth (JWT + MySQL)
-     └── FastAPI ML Backend (NLP + TF-IDF)
-# TechStack
-Frontend
-
-React.js • React Router • Framer Motion • Axios
-
-Backend 1 (Auth)
-
-Node.js • Express • MySQL • bcryptjs • JWT
-
-Backend 2 (AI/NLP)
-
-FastAPI • spaCy • scikit-learn • pdfplumber • PyMuPDF • docx2txt
-# Installation
-
-Clone the repo:
-
-git clone https://github.com/yourusername/HireSync.git
+Video recommendations for skill improvement
