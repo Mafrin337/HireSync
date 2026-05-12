@@ -1,4 +1,4 @@
-# HireSync — AI Resume Analyzer & Smart Shortlisting Platform
+# HireSync — AI Resume-Analyzer & Smart Shortlisting Platform
 
 HireSync is a full-stack AI-powered recruitment platform designed to help recruiters shortlist candidates efficiently and assist jobseekers in improving their resumes using NLP-based insights.
 
